@@ -30,7 +30,6 @@ const Menu = [
       category: "Branding",
       link: "https://shopping-cart-by-rishabh.netlify.app/"
     },
-    ,
     {
       id: 4,
       image: songifyimg,
@@ -38,7 +37,6 @@ const Menu = [
       category: "Art",
       link: "https://songify-by-rishabh.netlify.app/"
     },
-    ,
     {
       id: 5,
       image: studyhelpimg,
@@ -46,7 +44,6 @@ const Menu = [
       category: "Art",
       link: "https://studyhelp-by-rishabh.netlify.app/"
     },
-    ,
     {
       id: 6,
       image: tictactoeimg,
@@ -67,7 +64,7 @@ const Menu = [
       title: "Top courses filteraton",
       category: "Branding",
       link: "https://top-courses-by-rishabh.netlify.app/"
-    },
+    }
   ];
   
 
