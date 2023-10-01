@@ -15,6 +15,7 @@ const Resume = () => {
             if(val.category === "education"){
               return <Card key={id} Item={val}/>
             }
+            return null
           })}
         </div>
 
@@ -23,6 +24,7 @@ const Resume = () => {
             if(val.category === "experience"){
               return <Card id={index} Item={val}/>
             }
+            return null
           })}
         </div>
       </div>
