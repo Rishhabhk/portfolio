@@ -18,12 +18,14 @@
 .home__name{
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 0.5rem 0;
+    margin-bottom: 0.5rem;
 }
 
 .home__socials{
     display: flex;
     column-gap: 1.75rem;
+    margin: 1.5rem 0;
+    justify-content: center;
 
 }
 .home__social-link{
@@ -34,7 +36,7 @@
 
 
 .home__social-link:hover{
-    color: hsl(43, 100%, 68%);
+    color: var(--first-color);
     scale: 1.5;
 }
 
@@ -142,3 +144,9 @@
     bottom: 10%;
     right: 2%;
 }
+
+@media screen and (max-width: 1024px){
+    .home__social-link{
+      font-size: 1.125rem;
+    }
+  }

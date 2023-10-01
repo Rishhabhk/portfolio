@@ -9,9 +9,9 @@
 
 
   --body-font: 'Rubik', sans-serif;
-  --h1-font-sie: 2.25rem;
-  --h2-font-sie: 1.5rem;
-  --h3-font-sie: 1.25rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -30,9 +30,9 @@
 
 @media screen and (max-width:1024px){
   :root{
-    --h1-font-sie: 1.75rem;
-    --h2-font-sie: 1.25rem;
-    --h3-font-sie: 1rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
     --normal-font-size: 0.9rem;
     --small-font-size: 0.812rem;
     --smaller-font-size: 0.75rem;
@@ -131,18 +131,20 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+  transition: .3s;
 }
 
-@keyframes button-push{
+/* @keyframes button-push{
   50%{
     transform: scale(0.8);
   }
   100%{
     transform: scale(1);
   }
-}
+} */
 
 .btn:hover{
-  animation: button-push 1s ease-in-out 1;
+  /* animation: button-push 1s ease-in-out 1; */
+  scale: 0.9;
 }
 
