@@ -14,7 +14,7 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Rishabh Kushwaha, web developer from Delhi, India. I have rich experience in website design and building and customization, also I am good at problem solving.</p>
+            <p className="about__description">I am Rishabh Kushwaha, Web developer from Delhi, India. I have rich experience in Website designing, building and customization. Also, I am good at problem solving.</p>
             <button  className='btn'>Download CV</button>
           </div>
 
