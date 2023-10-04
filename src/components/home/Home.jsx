@@ -19,6 +19,7 @@ const Home = () => {
             <ScrollDown/>
         </div>
         <Shapes/>
+        <div className='big__name'>Front End Developer</div>
     </section>
   )
 }

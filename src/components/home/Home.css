@@ -109,8 +109,8 @@
     top: 30%;
 }
 .s3{
-    left: 5%;
-    bottom: 30%;
+    left: 2%;
+    bottom: 50%;
 }
 .s4{
     left: 2%;
@@ -121,8 +121,8 @@
     top: 10%;
 }
 .s6{
-    left: 36%;
-    bottom: 10%;
+    left: 16%;
+    bottom: 30%;
 }
 .s7{
     top: 20%;
@@ -150,3 +150,14 @@
       font-size: 1.125rem;
     }
   }
+
+.big__name{
+    position: fixed;
+    font-size: 14vw;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    z-index: -10;
+    font-weight:900;
+    opacity: 0.05;
+    text-transform: uppercase;
+}

@@ -148,3 +148,11 @@ img{
   scale: 0.9;
 }
 
+@media screen and (max-width:430px){
+  h2{
+    text-align: center;
+  }
+  .section__title::before{
+    left: 60px;
+  }
+}
